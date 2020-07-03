@@ -1,0 +1,46 @@
+body{
+  background-image : url(relax.jpg);
+  background-size: cover;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+.container_six {
+    text-align: center;
+}
+
+
+
+.btntwo-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align:center;
+ background-color: red;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  
+}
+.btntwo-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
