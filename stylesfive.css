@@ -1,0 +1,50 @@
+body{
+  background-image : url(gennba_01.jpg);
+  background-size: cover;
+  font-family: verdana, sans-serif;
+  font-weight: bold;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: blue;
+}
+
+
+
+.container_eight {
+    text-align: center;
+}
+
+
+
+
+
+.btnfour-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-align:center;
+ background-color: red;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  
+}
+.btnfour-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
